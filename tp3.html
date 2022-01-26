@@ -22,33 +22,38 @@
                     <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand">TO DO</a>
                         <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">recherche</button>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="recher">recherche</button>
                         </form>
                     </nav>
                     <div class="row" id="bu">
                         <div class="col-lg-5 offset-lg-3">
-                            <span id="ti">Task list</span>
-                            <button type="button" class="btn btn-outline-primary btn-sm" id="aj">Ajouter</button>
+                            <div class="row">
+                                <div class="col-lg-10" id="div" contenteditable=""></div>
+                            <div class="col-lg-2">
+                            <button type="button" class="btn btn-outline-primary btn-sm " id="aj">Ajouter</button></div>
+                            
+                            </div> 
+                            <span id="ti">Task list</span>                           
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6 offset-lg-3" id="list">
-                            <ul class="list-group">
-                                <li class="list-group-item " aria-current="true">Tasck1<i class="fas fa-edit f"></i>
-                                    <i class="fas fa-trash f"></i>
+                        <div class="col-lg-9 offset-lg-2" id="list">
+                            <ul class="list-group" id="ul">
+                                <li class="list-group-item " aria-current="true"><span  contenteditable=""class="ta">Tasck1</span><i class="fas fa-edit f" ></i>
+                                    <i class="fas fa-trash f" ></i>
                                 </li>
-                                <li class="list-group-item">Tasck2 <i class="fas fa-edit F"></i>
+                                <li class="list-group-item"> <span contenteditable="" class="ta">Tasck2</span> <i class="fas fa-edit F" ></i>
                                     <i class="fas fa-trash F"></i>
                                 </li>
-                                <li class="list-group-item">Tasck3 <i class="fas fa-edit F"></i>
-                                    <i class="fas fa-trash F"></i>
+                                <li class="list-group-item"><span contenteditable="" class="ta">Tasck3 </span><i class="fas fa-edit F" ></i>
+                                    <i class="fas fa-trash F" ></i>
                                 </li>
-                                <li class="list-group-item">Tasck4 <i class="fas fa-edit F"></i>
-                                    <i class="fas fa-trash F"></i>
+                                <li class="list-group-item"><span contenteditable="" class="ta">Tasck4 </span> <i class="fas fa-edit F" ></i>
+                                    <i class="fas fa-trash F" ></i>
                                 </li>
-                                <li class="list-group-item">Tasck5 <i class="fas fa-edit F"></i>
-                                    <i class="fas fa-trash F"></i>
+                                <li class="list-group-item"><span  contenteditable="" class="ta">Tasck5 </span> <i class="fas fa-edit F" ></i>
+                                    <i class="fas fa-trash F" ></i>
                                 </li>
                             </ul>
                         </div>

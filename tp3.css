@@ -26,11 +26,13 @@ body{
     text-align: center;
     font-weight: bold;
     color: blue;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .f{
     color: red;
     margin-left: 40px;
+    cursor: pointer;
+
 }
 #list{
     padding: 10px;
@@ -41,6 +43,17 @@ body{
     padding: 5px;
 }
 #aj{
-    margin-left: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
 
+}
+#div{
+    height:60px ;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.ta{
+    padding: 5px 300px 5px 5px;
 }
